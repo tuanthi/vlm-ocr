@@ -12,6 +12,12 @@ dependencies = [
     "torchvision>=0.15.0",
     "pillow>=10.0.0",
     "accelerate>=0.26.0",
+    "qwen-vl-utils>=0.0.1",
+]
+
+[project.optional-dependencies]
+quantization = [
+    "bitsandbytes>=0.41.0; platform_system != 'Darwin' or platform_machine != 'arm64'"
 ]
 
 [tool.uv]
