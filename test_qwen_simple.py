@@ -55,7 +55,7 @@ def test_invoice_extraction():
 Format as JSON."""
     
     # Image path
-    image_path = "/Users/huetuanthi/dev/dokeai/vlm-ocr/images/invoice.png"
+    image_path = "./images/invoice.png"
     
     print(f"\nProcessing invoice: {image_path}")
     

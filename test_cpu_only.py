@@ -36,7 +36,7 @@ def test_invoice_cpu():
     prompt = "Extract the invoice number, date, seller name, client name, and total amount from this invoice."
     
     # Image path
-    image_path = "/Users/huetuanthi/dev/dokeai/vlm-ocr/images/invoice.png"
+    image_path = "./images/invoice.png"
     
     # Prepare messages
     messages = [
