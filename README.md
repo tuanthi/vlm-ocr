@@ -64,7 +64,7 @@ pip install -e ".[dev]"
 ### 1. Text and Image Embeddings with CLIP
 
 ```python
-from vlm_bootcamp import CLIPEmbedding
+from visionlang import CLIPEmbedding
 
 # Initialize the model
 embedder = CLIPEmbedding()
@@ -83,7 +83,7 @@ similarity = embedder.text_to_image_similarity(
 ### 2. Zero-Shot Image Classification
 
 ```python
-from vlm_bootcamp import ZeroShotClassifier
+from visionlang import ZeroShotClassifier
 
 # Initialize classifier
 classifier = ZeroShotClassifier()
@@ -99,7 +99,7 @@ print(f"This is a: {prediction}")
 ### 3. Image Captioning
 
 ```python
-from vlm_bootcamp import ImageCaptioner
+from visionlang import ImageCaptioner
 
 # Initialize captioner
 captioner = ImageCaptioner(model_size="3B")
@@ -112,7 +112,7 @@ print(f"Caption: {caption}")
 ### 4. Object Detection
 
 ```python
-from vlm_bootcamp import ObjectDetector
+from visionlang import ObjectDetector
 
 # Initialize detector
 detector = ObjectDetector(model_size="7B")
@@ -190,8 +190,8 @@ Object detection identifies what objects are in an image and where they're locat
 ### Example 1: Building an Image Search Engine
 
 ```python
-from vlm_bootcamp import CLIPEmbedding
-from vlm_bootcamp.utils import ImageLoader
+from visionlang import CLIPEmbedding
+from visionlang.utils import ImageLoader
 
 # Load your image database
 image_db = ImageLoader.from_directory("./images")
@@ -227,7 +227,7 @@ for name, score in results:
 ### Example 2: Custom Object Counter
 
 ```python
-from vlm_bootcamp import ObjectDetector
+from visionlang import ObjectDetector
 
 def count_people_and_vehicles(image_path):
     detector = ObjectDetector()
@@ -260,7 +260,7 @@ print(f"People: {counts['people']}, Vehicles: {counts['vehicles']}")
 ### Example 3: Multi-Style Caption Generator
 
 ```python
-from vlm_bootcamp import ImageCaptioner
+from visionlang import ImageCaptioner
 
 def generate_social_media_post(image):
     captioner = ImageCaptioner()
@@ -382,13 +382,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - OpenAI for CLIP
 - Alibaba for Qwen2.5-VL
 - The Hugging Face team for Transformers
-- The original VLM Bootcamp notebook creators
+- The VisionLang community contributors
 
 ## 📮 Contact
 
-- GitHub Issues: [Report bugs or request features](https://github.com/yourusername/vlm-bootcamp/issues)
-- Discussions: [Join the community](https://github.com/yourusername/vlm-bootcamp/discussions)
+- GitHub Issues: [Report bugs or request features](https://github.com/yourusername/vlm-ocr/issues)
+- Discussions: [Join the community](https://github.com/yourusername/vlm-ocr/discussions)
 
 ---
 
-**Happy Learning! 🎓** Start your Vision-Language Model journey today with VLM Bootcamp!
+**Happy Learning! 🎓** Start your Vision-Language Model journey today with VisionLang!
