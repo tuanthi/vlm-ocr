@@ -4,16 +4,19 @@ A professional, production-ready framework for Vision-Language Models (VLMs), pr
 
 ## 📚 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Core Concepts](#core-concepts)
-- [Detailed Examples](#detailed-examples)
-- [API Reference](#api-reference)
-- [Learning Path](#learning-path)
-- [Contributing](#contributing)
-- [License](#license)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Installation](#-installation)
+- [Quick Start](#-quick-start)
+- [Core Concepts](#-core-concepts)
+- [Detailed Examples](#-detailed-examples)
+- [Learning Path](#-learning-path)
+- [Performance Considerations](#-performance-considerations)
+- [Troubleshooting](#-troubleshooting)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Acknowledgments](#-acknowledgments)
+- [Contact](#-contact)
 
 ## 🎯 Overview
 
